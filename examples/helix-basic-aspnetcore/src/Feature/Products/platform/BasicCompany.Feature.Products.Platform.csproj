@@ -47,6 +47,12 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <VersionOverride>7.0.0</VersionOverride>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <VersionOverride>13.0.0</VersionOverride>
+    </PackageReference>
     <PackageReference Include="Sitecore.Kernel" />
     <PackageReference Include="Sitecore.LayoutService" />
     <PackageReference Include="Sitecore.Mvc" />
